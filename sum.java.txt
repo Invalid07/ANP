@@ -1,0 +1,25 @@
+class ops {
+
+    public void add() {
+        System.out.println("sum of two number ");
+        int one = 3;
+        int two = 4;
+        int three = 5;
+        int sum = one + two + three;
+        System.out.println("sum of three number are: " + sum);
+    }
+
+    public void circle() {
+        System.out.println("circle ");
+        int r = 3;
+        float area = 3.14f * r * r;
+        System.out.println("Area of circle is: " + area);
+    }
+
+    public static void main(String[] args) {
+        ops obj = new ops();
+        obj.add();
+        obj.circle();
+    }
+}
+
